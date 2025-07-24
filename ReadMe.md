@@ -60,7 +60,7 @@ A Spring Boot microservice for managing customer data with secure password gener
    - Automatic CRUD implementation
 4. **Entities/DTOs**
    - `CustomerModel`: JPA Entity
-   - `CustomerRequest`: API DTO
+   - `CustomerRequest`: API Data Transfer Object
 
 ## Password Generation
 The system automatically generates secure 10-character passwords containing:
