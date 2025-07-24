@@ -70,18 +70,13 @@ The system automatically generates secure 10-character passwords containing:
 - At least 1 special character
 - Randomly selected remaining characters
 
-## Setup & Running
-1. Requires Java 17+
-2. Configure database in `application.properties`
-3. Build with `mvn clean install`
-4. Run with `mvn spring-boot:run`
 
 ## Dependencies
 - Spring Boot Starter Web
 - Spring Data JPA
 - Lombok
-- H2 Database (for development)
-- Validation API
+- MySQL Driver
+- Spring Data JPA
 
 ## Future Enhancements
 1. Add input validation annotations
