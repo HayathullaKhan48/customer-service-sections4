@@ -31,10 +31,11 @@ A Spring Boot microservice for managing customer data with secure password gener
 ## Database Schema (MySQL Workbench)
 ### Table Structure: `customer_details`
 ### Input in Database
-- select * from customer_details 
-- create database customer_db 
-- use customer_db
-
+```
+   select * from customer_details 
+   create database customer_db 
+   use customer_db
+```
 ### Output in Database (Your input plus system-generated fields):
 **SELECT * FROM customer_details;**
 ```
