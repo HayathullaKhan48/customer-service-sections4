@@ -76,7 +76,6 @@ The system automatically generates secure 10-character passwords containing:
 - Spring Data JPA
 - Lombok
 - MySQL Driver
-- Spring Data JPA
 
 ## Future Enhancements
 1. Add input validation annotations
