@@ -36,7 +36,7 @@ A Spring Boot microservice for managing customer data with secure password gener
    create database customer_db 
    use customer_db
 ```
-### Output in Database (Your input plus system-generated fields):
+### Output in Database (input system-generated fields):
 ```
 -- | id | username | mobile_number | email_address    | customer_age | password   | user_status | created_date                 | updated_date                 |
 -- |----|----------|---------------|------------------|--------------|------------|-------------|------------------------------|------------------------------|
