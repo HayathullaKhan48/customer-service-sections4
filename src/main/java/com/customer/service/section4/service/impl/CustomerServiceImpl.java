@@ -6,7 +6,6 @@ import com.customer.service.section4.request.CustomerRequest;
 import com.customer.service.section4.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import java.security.SecureRandom;
 import java.util.Collection;
 import java.util.stream.Collectors;
