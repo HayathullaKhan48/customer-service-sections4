@@ -3,10 +3,9 @@ package com.customer.service.section4.controller;
 import com.customer.service.section4.request.CustomerRequest;
 import com.customer.service.section4.service.CustomerService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Collection;
 
 /**
  * REST Controller for handling customer related operations
@@ -23,6 +22,10 @@ public class CustomerController {
         return customerService.createCustomer(request);
     }
 
-    // GetMapping
+    @GetMapping("/getAllData")
+    public String getCustomerData(@RequestBody CustomerRequest request){
+        return customerService.createCustomer(request);
+    }
+
 
 }
