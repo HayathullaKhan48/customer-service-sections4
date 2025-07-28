@@ -15,7 +15,7 @@ import java.util.Collection;
 public class CustomerController {
 
     //Injected customer service that contains business logic for all final fields (Dependency Injection)
-    private final CustomerService customerService; //Customer service injection
+    private final CustomerService customerService; //Customer service Injected
 
     /**
      * Endpoint to create a new customer.
