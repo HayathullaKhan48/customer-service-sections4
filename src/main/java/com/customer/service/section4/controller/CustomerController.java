@@ -9,7 +9,11 @@ import java.util.Collection;
 /**
  * REST Controller for handling customer related operations
  */
+// Marks this class as a REST controller, meaning it will handle HTTP requests
+// and return responses as JSON or XML instead of rendering HTML views.
 @RestController
+// Base URL mapping for all the APIs in this controller.
+// All endpoints inside this class will start with "/api/customer/v1"
 @RequestMapping("/api/customer/v1")
 @RequiredArgsConstructor // Lombok annotation to generate constructor injection
 public class CustomerController {
