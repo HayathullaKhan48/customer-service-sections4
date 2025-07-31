@@ -1,10 +1,10 @@
 package com.customer.service.section4.entity;
 
 import jakarta.persistence.*;
+import jakarta.persistence.Id;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.springframework.data.annotation.Id;
 import java.time.LocalDateTime;
 
 /**

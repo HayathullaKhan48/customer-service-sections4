@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CustomerRepository extends JpaRepository<CustomerModel, Long> {
 
-      //Spring Data JPA will implement all basic CURD operation automatically
-      //Custom queries can be added here as needed
+    //Spring Data JPA will implement all basic CURD operation automatically
+    //Custom queries can be added here as needed
 
 }

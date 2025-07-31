@@ -8,6 +8,7 @@ public class CustomerServiceSection4Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CustomerServiceSection4Application.class, args);
+		System.out.println("Customer Service Section4 Application Successfully Running...");
 	}
 
 }
